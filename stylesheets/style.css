@@ -1,0 +1,403 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+body{
+	font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: #d9d9d9;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+#left{
+	background: #e84c3d;
+	width: 260px;
+	height: 100%;
+	position: fixed;
+	padding:20px;
+	text-align: center;
+	float: left;
+}
+
+
+#left .face-area{
+	margin-top: 20px;
+}
+
+
+#left .face-area i{
+	display: block;
+	width: 140px;
+	height: 140px;
+	border: 1px solid red;
+	background: url("images/头像.jpg") -40px -60px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+
+#left .face-area h2{
+	font-weight: normal;
+	margin: 10px 0;
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-shadow:1px 1px 2px #000;
+}
+
+#left .list-menu{
+	width: 140px;
+	height: 20px;
+	margin: 40px auto;
+}
+
+
+#left .list-menu li{
+	background: #000;
+	border-radius: 10px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+
+
+#left .list-menu li a{
+	color: #fff;
+	font-size: 13px;
+	display: block;
+}
+
+
+#left .contact{
+	float: left;
+	margin-top: 50px;
+	margin-left: 55px;
+}
+
+#left .contact li{
+	width: 41px;
+	height: 41px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+#left .contact .wechat{
+	background: url("images/wechat.png");
+}
+#left .contact .douban{
+	background: url("images/douban.png");
+}
+#left .contact .email{
+	background: url("images/email.png");
+}
+
+
+#right{
+	width: 950px;
+	height: 1640px;
+	overflow: hidden;
+	position: relative;
+	left:350px;
+	top:40px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+	float: left;
+	background: #fff;
+	margin-bottom: 40px;
+}
+
+#right .left-part{
+	background: #262626;
+	border-radius: 10px 0 0 10px;
+	width: 200px;
+	height: 100%;
+	text-align: center;
+	padding: 50px 0;
+	float: left;
+}
+
+
+#right .left-part li{
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+
+
+#right .left-part .experience{
+	margin-top: 35px;
+}
+
+
+#right .left-part .rewards{
+	margin-top: 410px;
+}
+
+
+#right .left-part .skills{
+	margin-top: 290px
+}
+
+
+#right .left-part .strengths{
+	margin-top: 400px
+}
+
+#right .right-part{
+	float: left;
+	padding: 50px 30px;
+	line-height: 1.5
+}
+
+
+#right .right-part .content{
+	overflow: hidden;
+	border-bottom:1px dotted red;
+	width: 650px;
+	margin-bottom: 25px;
+}
+
+#right .right-part .timeline{
+	float: left;
+	font-size: 10px;
+	color: #fff;
+	margin-top: 7px;
+	background: #e04444;
+	text-align: center;
+	border-radius: 5px;
+	padding: 2px 3px;
+}
+
+#right .right-part .info{
+	float: left;
+	margin-left: 20px;
+	width: 570px;
+	margin-bottom: 25px;
+}
+
+
+#right .right-part .info dd::before{
+	content: "★ ";
+	margin-right: 10px;
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#right .right-part .info dt,h3{
+	font-size: 22px;
+	font-weight: normal;
+	display: block;
+}
+
+
+#right .right-part .info i{
+	margin-bottom: 5px;
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px
+}
+
+
+#right .right-part .info dd span{
+	width: 530px;
+	display: inline-block;
+}
+
+
+#right .right-part .edu-part{
+	padding-bottom: 25px;
+}
+
+
+#right .right-part .edu-part h3{
+	float: left;
+	margin-top: -5px
+}
+
+#right .right-part .edu-part i{
+	font-style: normal;
+	display: block;
+	margin-top: 3px;
+	margin-left: 5px;
+	float: left;
+}
+
+#right .right-part .reward-part .info{
+	margin-left: 0;
+	width: 650px
+}
+
+
+#right .right-part .reward-part  dd{
+	margin-left: 65px;
+}
+
+
+#right .right-part .reward-part dt{
+	margin-bottom: 5px;
+	color:  #e04444;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+
+
+
+
+#right .right-part .skill-part .icon{
+	width: 125px;
+	height: 125px;
+	display: block;
+	float: left;
+	background: url("images/statics.jpg") no-repeat;
+	margin-right: 5px;
+}
+
+
+
+
+#right .right-part .skill-part .ps{
+	background-position: 0 0;
+}
+
+
+#right .right-part .skill-part .cdr{
+	background-position:-145px 0;
+}
+
+
+#right .right-part .skill-part .js{
+	background-position: -290px 0;
+}
+
+
+#right .right-part .skill-part .html{
+	background-position: -433px 0;
+}
+
+
+#right .right-part .skill-part .css{
+	background-position: -573px 0;
+}
+
+
+#right .right-part .skill-part .statics{
+	margin-top: 20px;
+	margin-left: 58px;
+}
+
+
+#right .right-part .skill-part .statics dd::before{
+	content: ">>";
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+}
+
+
+#right .right-part .skill-part .language dt{
+	font-size: 18px
+}
+
+#right .right-part .skill-part .language dd{
+	display: block;
+	float: left;
+	margin-left: 42px
+}
+
+
+#right .right-part .str-part dd::before{
+	content: none;
+}
+
+
+#right .right-part .str-part i{
+	float: left;
+	display: block;
+	width: 68px;
+}
+
+#right .right-part .str-part dd{
+	height: 25px;
+	width: 480px;
+	background: #262626;
+	border-radius: 5px;
+	float: left;
+}
+
+
+#right .right-part .str-part ul{
+	margin-top: 10px
+}
+
+
+#right .right-part .str-part li+li{
+	float: left;
+	margin-top: -8px;
+}
+
+#right .right-part .str-part .score i{
+	height: 25px;
+	border-radius: 4px 0 0 4px;
+	display: block;
+	float: left;
+	color: #fff;
+}
+
+
+#right .right-part .str-part .zx i{
+	width: 374px;
+	text-indent: 344px;
+	background: #ee652a;
+}
+
+
+#right .right-part .str-part .cz i{
+	width: 398px;
+	text-indent: 368px;
+	background: #89d51a;
+}
+
+
+#right .right-part .str-part .xx i{
+	width: 408px;
+	text-indent: 378px;
+	background: #3f9dde;
+}
+
+#right .right-part .str-part .ky i{
+	width: 360px;
+	text-indent: 330px;
+	background: #fb9b0d;
+}
+
+#right .right-part .str-part .gt i{
+	width: 384px;
+	text-indent: 354px;
+	background: #1fbba6;
+}
+
+
+#right .right-part .str-part{
+	border: none;
+}
+
+.flexslider{
+	width: 940px;
+	position: relative;
+	left:350px;
+	top:40px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+	float: left;
+	background: #fff;
+	margin-bottom: 40px;
+}
