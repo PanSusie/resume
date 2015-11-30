@@ -37,7 +37,7 @@ ul li{
 	width: 140px;
 	height: 140px;
 	border: 1px solid red;
-	background: url("images/头像.jpg") -40px -60px;
+	background: url("../images/头像.jpg") -40px -60px;
 	border-radius: 100%;
 	margin: 0 auto;
 }
@@ -90,13 +90,13 @@ ul li{
 
 
 #left .contact .wechat{
-	background: url("images/wechat.png");
+	background: url("../images/wechat.png");
 }
 #left .contact .douban{
-	background: url("images/douban.png");
+	background: url("../images/douban.png");
 }
 #left .contact .email{
-	background: url("images/email.png");
+	background: url("../images/email.png");
 }
 
 
@@ -259,7 +259,7 @@ ul li{
 	height: 125px;
 	display: block;
 	float: left;
-	background: url("images/statics.jpg") no-repeat;
+	background: url("../images/statics.jpg") no-repeat;
 	margin-right: 5px;
 }
 
