@@ -90,13 +90,13 @@ ul li{
 
 
 #left .contact .wechat{
-	background: url("../images/wechat.png");
+	background: url(../images/wechat.png);
 }
 #left .contact .douban{
-	background: url("../images/douban.png");
+	background: url(../images/douban.png);
 }
 #left .contact .email{
-	background: url("../images/email.png");
+	background: url(../images/email.png);
 }
 
 
