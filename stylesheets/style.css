@@ -37,7 +37,7 @@ ul li{
 	width: 140px;
 	height: 140px;
 	border: 1px solid red;
-	background: url("images/头像.jpg") -40px -60px;
+	background: url("../images/头像.jpg") -40px -60px;
 	border-radius: 100%;
 	margin: 0 auto;
 }
@@ -106,13 +106,13 @@ ul li{
 
 
 #left .contact-info .wechat span{
-	background: url("images/wechat.png") no-repeat;
+	background: url("../images/wechat.png") no-repeat;
 }
 
 
 
 #left .contact-info .email span{
-	background: url("images/email.png") 2px no-repeat;
+	background: url("../images/email.png") 2px no-repeat;
 }
 
 
@@ -285,7 +285,7 @@ ul li{
 	height: 125px;
 	display: block;
 	float: left;
-	background: url("images/statics.jpg") no-repeat;
+	background: url("../images/statics.jpg") no-repeat;
 	margin-right: 5px;
 }
 
