@@ -37,7 +37,7 @@ ul li{
 	width: 140px;
 	height: 140px;
 	border: 1px solid red;
-	background: url("images/头像.jpg") -40px -60px;
+	background: url("../images/头像.jpg") -40px -60px;
 	border-radius: 100%;
 	margin: 0 auto;
 }
@@ -59,7 +59,7 @@ ul li{
 }
 
 
-#left .list-menu li{
+#left .list-menu li {
 	background: #000;
 	border-radius: 10px;
 	line-height: 20px;
@@ -74,29 +74,55 @@ ul li{
 }
 
 
-#left .contact{
-	float: left;
-	margin-top: 50px;
-	margin-left: 55px;
-}
-
-#left .contact li{
-	width: 41px;
-	height: 41px;
-	float: left;
-	margin-right: 10px;
+#left .list-menu .contact{
+	color: #000;
+	background: none;
+	font-size: 13px;
+	border: 2px solid #000;
+	font-weight: bold;
 	cursor: pointer;
 }
 
 
-#left .contact .wechat{
-	background: url("images/wechat.png");
+#left .contact-info{
+	width: 200px;
+	height: 200px;
+	margin: 120px auto;
+	display: none;
 }
-#left .contact .douban{
-	background: url("images/douban.png");
+
+
+#left .contact-info li{
+	margin-top: 10px;
+	font-weight: bold;
 }
-#left .contact .email{
-	background: url("images/email.png");
+
+#left .contact-info span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: -5px auto;
+}
+
+
+#left .contact-info .wechat span{
+	background: url("../images/wechat.png") no-repeat;
+}
+
+
+
+#left .contact-info .email span{
+	background: url("../images/email.png") 2px no-repeat;
+}
+
+
+#left .contact-info .email a{
+	color: #000;
+}
+
+
+#left .contact-info .email a:hover{
+	color: #fff
 }
 
 
@@ -259,7 +285,7 @@ ul li{
 	height: 125px;
 	display: block;
 	float: left;
-	background: url("images/statics.jpg") no-repeat;
+	background: url("../images/statics.jpg") no-repeat;
 	margin-right: 5px;
 }
 
