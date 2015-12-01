@@ -37,7 +37,7 @@ ul li{
 	width: 140px;
 	height: 140px;
 	border: 1px solid red;
-	background: url("../images/头像.jpg") -40px -60px;
+	background: url("../images/touxiang.png") -25px -3px no-repeat;
 	border-radius: 100%;
 	margin: 0 auto;
 }
